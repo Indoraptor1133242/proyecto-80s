@@ -1,0 +1,166 @@
+<html>
+    <head>
+        <title>Lista de objetos</title>
+        <script src ="main.js"></script>
+    
+   <section id="all">
+       <section id="il" class="ho"> <img  id="drive" src="google-drive.png">
+    <p id="titulo">Lista de recordatorios</p>
+    <input id="buscar" placeholder="Buscar el articulo">
+    
+    <section id="buttons_menu">
+    <button id="alfabeto" onclick="ordenar()">ORDENAR</button>
+    <button id="reversa" onclick="reversar()">REVERSA</button>
+    <button id="agregar" onclick="agrega()">AGREGAR</button>
+    <button id="search" onclick="bus()" >BUSCAR </button>
+</section></section>
+    <section id="otros" class="hi">
+    <img  id="ki" src="nubes.png">
+    
+    <div id="lista" class="mos"></div>
+    <div id="yacon" class="mos"></div>
+    <div id="alfa" class="mos"> </div>
+    <div id="times" class="mos"></div>
+ <section id="agregador">
+    <input id="objetos" placeholder="Agregar articulo">
+    <button id="observar" onclick="Mostrar()">Agregar</button></section></section></section>
+   
+
+    <style>
+#drive{
+    width: 40px;
+    height: 40px;
+}
+#titulo{
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-size: 25px;
+margin-left: 70px;
+}
+#drive{
+    margin-bottom: -80px;
+}
+#buscar{
+    margin-left: 350px;
+    margin-top: -60px;
+    font-size: 25px;
+    border-width: 0px;
+    border-radius: 30px;
+    background-color: whitesmoke;
+    padding: 10px;
+    padding-right: 300px;
+}
+#alfabeto{
+    margin-left: 40px;
+    font-size: 16px;
+    color: gray;
+    background-color: silver;
+    border-width: 0px;
+    margin-top: 30px;
+}
+#reversa{
+    margin-left: 30px;
+    font-size: 16px;
+    color: gray;
+    background-color: silver;
+    border-width: 0px;
+    margin-top: 30px;
+}
+#search{
+    margin-left: 30px;
+    font-size: 16px;
+    color: gray;
+    background-color: silver;
+    border-width: 0px;
+    margin-top: 30px;
+}
+#reversa:hover{
+    color: blue;
+    text-decoration: underline blue;
+}
+#search:hover{
+    color: blue;
+    text-decoration: underline blue;
+}
+#alfabeto:hover{
+    color: blue;
+    text-decoration: underline blue;
+}
+#agregar:hover{
+    color: blue;
+    text-decoration: underline blue;
+}
+#agregar{
+    margin-left: 30px;
+    font-size: 16px;
+    color: gray;
+    background-color: silver;
+    border-width: 0px;
+    margin-top: 30px;  
+}
+#ki{
+    margin-left:250px;
+}
+#agregador{
+    display: none;
+}
+#objetos{
+    color: gray;
+    border-width: 0px;
+    background-color: whitesmoke;
+    border-radius: 40px;
+    padding: 7px;
+}
+#observar{
+    border-width: 0px;
+    background-color: rgba(128, 128, 128, 0.582);
+    padding: 10px;
+    border-radius: 20px;
+}
+.mos{
+    font-size: 20px;
+   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   margin-bottom: 40px;
+}
+#il{
+    background-color: silver;
+    padding: 5px;
+   border-top-left-radius:40px ;
+   border-top-right-radius:40px ;
+}
+#agregador{
+    margin-top: 300px;
+}
+#search{
+    width:25px ;
+    height: 25px;
+margin-left: 30px;
+
+}
+#search:hover{
+    width:35px ;
+    height: 35px;
+margin-left: 30px;
+
+}
+#times{
+    display: none;
+}
+#otros{
+    background-color: rgba(220, 220, 220, 0.548);
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+}
+.hi{
+    width: 1000px;
+}
+.ho{
+    width: 990px;;
+}
+#all{
+    margin-top: 100px;
+    align-self: center;
+    margin-left: 450px;
+}
+
+</style>
+ </html>
